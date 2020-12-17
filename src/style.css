@@ -1,0 +1,29 @@
+/* This is a CSS file */
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.box {
+border: 1px solid black;
+background: rgb(255, 255, 255);
+height: 100px;
+font-size: 50pt;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+align-items: center; /* 縦方向中央揃え */
+-webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+justify-content: center; /* 横方向中央揃え */
+}
+.box:hover{
+background: rgb(196, 196, 196);
+}
+.box:active{
+background: gray;
+}
+.selected-box {
+border: 1px solid black;
+background: rgb(255, 255, 255);
+}
